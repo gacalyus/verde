@@ -1,0 +1,13 @@
+.detailPage{
+    display: flex;
+}
+
+.detailForm{
+    width: 800px;
+}
+.detailHeader{
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}

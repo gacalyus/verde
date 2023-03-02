@@ -1,0 +1,24 @@
+ .cart {
+     height: 26rem;
+     border: 3px solid rgb(74, 74, 248);
+     gap: 3rem;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .cartTitle {
+     overflow: hidden;
+     white-space: nowrap;
+ }
+
+ .cartBody {
+     overflow: hidden;
+     display: -webkit-box;
+     -webkit-line-clamp: 4;
+     -webkit-box-orient: vertical;
+ }
+
+ .detailBtn {
+     width: fit-content;
+     margin-left: auto;
+ }
